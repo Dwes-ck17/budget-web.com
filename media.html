@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Budget</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .budget-form {
+      display: flex;
+      flex-direction: column;
+    }
+    .budget-form label {
+      margin-bottom: 5px;
+      color: #555;
+    }
+    .budget-form input {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    .budget-form button {
+      padding: 10px;
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .budget-form button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Shopping Budget</h1>
+    <form class="budget-form">
+      <label for="income">Monthly Income:</label>
+      <input type="number" id="income" name="income" required>
+
+      <label for="expenses">Monthly Expenses:</label>
+      <input type="number" id="expenses" name="expenses" required>
+
+      <label for="savings">Desired Savings:</label>
+      <input type="number" id="savings" name="savings" required>
+
+      <button type="submit">Calculate Budget</button>
+    </form>
+  </div>
+</body>
+</html>

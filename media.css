@@ -1,0 +1,35 @@
+*{margin: 0;
+    padding: auto;
+
+}
+
+.container{
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    max-width: 900px;
+    margin: 30px auto;
+
+}
+
+.container{
+    font-size: 13px;
+    padding:8px ;
+    background:rgb(rgba(255, 0, 0, 0.224), )
+
+}
+/*media Queries */
+ /*for small devices with maximum width of 576 */
+ @media screen and (max-width: 576px) {
+    
+ }
+ .container{
+    flex-direction: column;
+    background:aqua ;
+    margin: 20px auto;
+    max-width: 576px;
+ }
+    
